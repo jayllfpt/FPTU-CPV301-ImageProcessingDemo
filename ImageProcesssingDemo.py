@@ -48,6 +48,7 @@ def function5(img=img):
 
 alpha = float(input("Enter alpha: "))
 beta = float(input("Enter beta: "))
+cv2.imshow('original image', img)
 function1(alpha, beta)
 function2()
 function3()
